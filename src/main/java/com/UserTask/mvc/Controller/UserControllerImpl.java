@@ -43,10 +43,7 @@ public class UserControllerImpl implements UserInterace {
 	}
 
 	
-	@GetMapping("/gg")
-	public String dis() {
-		return "Mahadev";
-	}
+	
 	@Override
 	@GetMapping(value = "/login")
 	@CrossOrigin

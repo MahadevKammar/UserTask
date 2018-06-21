@@ -30,10 +30,7 @@ public class UserServiceImpl implements UserService, UserDetailsService {
 	private PasswordEncoder passwordEncoder;
 	
 	
-	public String hellowrold() {
-		return "Hello world";
-	}
-
+	
 	@Override
 	public User postData(User user) {
 		if (!userDao.existsByemail(user.getEmail())) {
